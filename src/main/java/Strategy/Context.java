@@ -1,5 +1,7 @@
 package Strategy;
 
+import Strategy.strategy.StrategySorting;
+
 /**
  * Created by max_yav on 27.03.2019.
  */
