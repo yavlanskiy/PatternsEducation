@@ -1,3 +1,3 @@
 # PatternsEducation
 
-[STRATEGY](lifehacker.ru)
+[STRATEGY](https://github.com/yavlanskiy/PatternsEducation/blob/master/src/main/java/Strategy/Info/strategy.md)
