@@ -1,4 +1,4 @@
-package Strategy.strategy;
+package Strategy.example1.strategy;
 
 /**
  * Created by max_yav on 27.03.2019.

@@ -1,10 +1,10 @@
-package Strategy;
+package Strategy.example1;
 
 /**
  * Created by max_yav on 27.03.2019.
  */
 public enum Users {
-    BEL_KO("Белка"), IR_KO("Ирка"), DIM_KO("Димка"), NARASH_KA("Наташка"), MAXIM_KO("Максимка");
+    BEL_KO("Белка"), IR_KO("Ирка"), DIM_KO("Димка"), NARASH_KA("Наташка"), MAXIM_KO("Максимко");
 
     public String name;
 

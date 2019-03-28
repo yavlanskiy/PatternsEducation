@@ -1,7 +1,7 @@
-package Strategy;
+package Strategy.example1;
 
-import Strategy.strategy.BubleSortStrategy;
-import Strategy.strategy.SelectionSortStrategy;
+import Strategy.example1.strategy.BubleSortStrategy;
+import Strategy.example1.strategy.SelectionSortStrategy;
 
 import java.util.Arrays;
 
@@ -20,7 +20,6 @@ public class Main {
             case IR_KO:
                 break;
             case DIM_KO:
-
                 break;
             case MAXIM_KO:
                 context.setStrategy(new BubleSortStrategy());
@@ -37,7 +36,5 @@ public class Main {
 
         System.out.println("Стратегия от " + name);
         System.out.println("Массив после сортировки" + Arrays.toString(ints));
-
-
     }
 }

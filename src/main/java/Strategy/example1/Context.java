@@ -1,6 +1,6 @@
-package Strategy;
+package Strategy.example1;
 
-import Strategy.strategy.StrategySorting;
+import Strategy.example1.strategy.StrategySorting;
 
 /**
  * Created by max_yav on 27.03.2019.
