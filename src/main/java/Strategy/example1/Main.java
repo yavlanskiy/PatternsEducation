@@ -14,7 +14,7 @@ public class Main {
         // Массив который нужно отсортировать.
         final int[] mass = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0, 0, 1, 4, 5};
 
-        Users name = Users.NARASH_KA;
+        Users name = Users.NATASH_KA;
 
         switch (name){
             case IR_KO:
@@ -24,7 +24,7 @@ public class Main {
             case MAXIM_KO:
                 context.setStrategy(new BubleSortStrategy());
                 break;
-            case NARASH_KA:
+            case NATASH_KA:
                 context.setStrategy(new SelectionSortStrategy());
                 break;
             case BEL_KO:
