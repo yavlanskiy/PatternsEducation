@@ -4,7 +4,7 @@
 - [STRATEGY](https://github.com/yavlanskiy/PatternsEducation/blob/master/src/main/java/Strategy/Info/strategy.md)
 ---
 
-####Отношения между классами
+#Отношения между классами
 
 - ![агрегация](https://hsto.org/getpro/habr/post_images/ca8/dca/2a5/ca8dca2a537a1ec8044e88984c3f8b02.png) - агрегация (aggregation) — описывает связь «часть»–«целое», 
 в котором «часть» может существовать отдельно от «целого». Ромб указывается со стороны «целого».
