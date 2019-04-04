@@ -1,5 +1,6 @@
 package Strategy.example1;
 
+import Strategy.example1.strategy.BubleSortReverse;
 import Strategy.example1.strategy.BubleSortStrategy;
 import Strategy.example1.strategy.SelectionSortStrategy;
 
@@ -28,6 +29,7 @@ public class Main {
                 context.setStrategy(new SelectionSortStrategy());
                 break;
             case BEL_KO:
+                context.setStrategy(new BubleSortReverse());
                 break;
         }
         System.out.println("Массив до сортировки" + Arrays.toString(mass));
