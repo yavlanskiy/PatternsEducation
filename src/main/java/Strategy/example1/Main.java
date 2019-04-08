@@ -15,7 +15,7 @@ public class Main {
         // Массив который нужно отсортировать.
         final int[] mass = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0, 0, 1, 4, 5};
 
-        Users name = Users.NATASH_KA;
+        Users name = Users.BEL_KO;
 
         switch (name){
             case IR_KO:
