@@ -1,6 +1,6 @@
 TEMPLATE METHOD
 ========================
-![UML](https://refactoring.guru/images/patterns/diagrams/template-method/structure.png)
+![UML](https://refactoring.guru/images/patterns/diagrams/template-method/structure.png) 
 ---
 *Шаблонный метод (англ. Template method) — поведенческий шаблон проектирования, определяющий основу алгоритма и позволяющий 
 наследникам переопределять некоторые шаги алгоритма, не изменяя его структуру в целом.*
