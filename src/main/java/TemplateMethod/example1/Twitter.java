@@ -1,17 +1,16 @@
-package TemplateMethod;
+package TemplateMethod.example1;
 
 /**
- * Created by max_yav on 08.04.2019.
+ * Класс социальной сети.
  */
-public class Facebook extends Network {
+public class Twitter extends Network {
 
-    public Facebook(String userName, String password) {
+    public Twitter(String userName, String password) {
         this.userName = userName;
         this.password = password;
     }
 
-    @Override
-    boolean logIn(String userName, String password) {
+    public boolean logIn(String userName, String password) {
         System.out.println("\nПроверка пользователя");
         System.out.println("Name: " + this.userName);
         System.out.print("Password: ");
@@ -19,24 +18,22 @@ public class Facebook extends Network {
             System.out.print("*");
         }
         simulateNetworkLatency();
-        System.out.println("\n\nLogIn success on Facebook");
+        System.out.println("\n\nLogIn success on Twitter");
         return true;
     }
 
-    @Override
-    boolean sendData(byte[] data) {
+    public boolean sendData(byte[] data) {
         boolean messagePosted = true;
         if (messagePosted) {
-            System.out.println("Сообщение: '" + new String(data) + "' опубликовано на Facebook");
+            System.out.println("Message: '" + new String(data) + "' was posted on Twitter");
             return true;
         } else {
             return false;
         }
     }
 
-    @Override
-    void logOut() {
-        System.out.println("Пользователь: '" + userName + "' уходит с Facebook");
+    public void logOut() {
+        System.out.println("User: '" + userName + "' was logged out from Twitter");
     }
 
     private void simulateNetworkLatency() {

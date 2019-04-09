@@ -1,4 +1,4 @@
-package TemplateMethod;
+package TemplateMethod.example1;
 
 /**
  * Базовый класс социальной сети.

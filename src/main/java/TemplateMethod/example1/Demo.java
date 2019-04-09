@@ -1,4 +1,4 @@
-package TemplateMethod;
+package TemplateMethod.example1;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -11,6 +11,7 @@ public class Demo {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         Network network = null;
+
         System.out.print("Input user name: ");
         String userName = reader.readLine();
         System.out.print("Input password: ");
