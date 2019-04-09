@@ -12,7 +12,7 @@ public abstract class Network {
     /**
      * Публикация данных в любой сети.
      */
-    public boolean post(String message) {
+    protected boolean post(String message) {
         // Проверка данных пользователя перед постом в соцсеть. Каждая сеть для
         // проверки использует разные методы.
         if (logIn(this.userName, this.password)) {

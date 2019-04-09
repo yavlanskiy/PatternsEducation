@@ -41,7 +41,7 @@ public class Twitter extends Network {
             int i = 0;
             System.out.println();
             while (i < 10) {
-                System.out.print(".");
+                System.out.print("*");
                 Thread.sleep(500);
                 i++;
             }
